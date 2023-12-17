@@ -1,0 +1,76 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    background-color: #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    font-size: medium;
+}
+.container{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button{
+    margin-top: 50%; 
+    margin-left: 2%;
+    padding: 2%;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+
+}
+.purple{
+    color: white; 
+    background-color: blueviolet;
+}
+.purple:hover{
+    color: blueviolet; 
+    background-color: white;
+    border: 1px solid blueviolet;
+}
+.red{
+    color:white; 
+    background-color: red;
+}
+.red:hover{
+    color: red; 
+    background-color: white;
+    border: 1px solid red;
+}
+.yellow{
+    color: white;
+    background-color: yellow; 
+}
+.yellow:hover{
+    color: yellow; 
+    background-color: white;
+    border: 1px solid yellow; 
+}
+.skyblue{
+    color: white; 
+    background-color: aqua;
+}
+.skyblue:hover{
+    color: skyblue; 
+    background-color: white;
+    border: 1px solid skyblue; 
+}
+.orange{
+    color:white; 
+    background-color: orange;
+}
+.orange:hover{
+    color: orange; 
+    background-color:white; 
+    border: 1px solid orange;
+}
